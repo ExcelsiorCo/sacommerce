@@ -1,0 +1,529 @@
+<!doctype html>
+<html class="no-js" lang="es">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SA | Pago</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="img/apple-touch-icon.png" type="img/x-icon" rel="shortcut icon">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="css/shortcode/shortcodes.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+
+    <div class="wrapper home">
+    
+          <!--Header area start-->
+          <header class="header">
+            <div class="header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="search-area">
+                                <div class="search-bar">
+                                    <form style="visibility: hidden;" action="#">
+                                        <input type="text" placeholder="Buscar">
+                                        <button type="submit"><i class="zmdi zmdi-search"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-5  col-xs-12">
+                            <div class="logo text-center">
+                                <a href="index.html">
+                                    <img src="img/logo/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-sm-2 hidden-xs">
+                            <div class="header-right-bar f-right">
+                                <ul>
+                                    <li class="account"><a href="#"  data-toggle="modal" data-target="#loginModal"><i class="zmdi zmdi-account-o"></i></a></li>
+                                    <li class="cart"><a href="#" data-toggle="dropdown"><i class="zmdi zmdi-shopping-cart"></i>
+                                        <span class="cart-count">2</span>
+                                    </a>
+                                    
+                                    <!-- Mini Cart Brief -->
+                                    <div class="mini-cart-brief dropdown-menu text-left">
+                                        <!-- Cart Products -->
+                                        <div class="all-cart-product clearfix">
+                                            <div class="single-cart clearfix">
+                                                <div class="cart-image">
+                                                    <a href="product-details.html"><img src="img/product/cart-1.jpg" alt=""></a>
+                                                </div>
+                                                <div class="cart-info">
+                                                    <h5><a href="product-details.html">Silla Minotti</a></h5>
+                                                    <p>1 x $79.999</p>
+                                                    <a href="#" class="cart-delete" title="Remove this item"><i class="zmdi zmdi-delete"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="single-cart clearfix">
+                                                <div class="cart-image">
+                                                    <a href="product-details.html"><img src="img/product/cart-2.jpg" alt=""></a>
+                                                </div>
+                                                <div class="cart-info">
+                                                    <h5><a href="product-details.html">Silla Eiffel</a></h5>
+                                                    <p>1 x $82.999</p>
+                                                    <a href="#" class="cart-delete" title="Remove this item"><i class="zmdi zmdi-delete"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Cart Total -->
+                                        <div class="cart-totals">
+                                            <h5>Total <span>$162.998</span></h5>
+                                        </div>
+                                        <!-- Cart Button -->
+                                        <div class="cart-bottom  clearfix">
+                                            <a href="checkout.html">Comprar</a>
+                                        </div>
+                                    </div>
+                                    
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 hidden-xs">
+                            <div class="menu text-center">
+                                <nav>
+                                    <ul>
+                                        <li><a href="index.html">Home</a>
+                                            <ul class="dropdown_menu">
+                                                <li><a href="index.html">Home</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li><a href="#">Información</a>
+                                            <ul class="dropdown_menu">
+                                                <li><a href="about.html">Nosotros</a></li>
+                                                <li><a href="contact.html">Contacto</a></li>
+                                                <li><a href="cart.html">Carrito</a></li>
+                                                <li><a href="checkout.html">Comprar</a></li>
+                                                <li><a href="login.html">Ingresar</a></li>
+                                                <li><a href="register.html">Registrarse</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="shop.html">Tienda</a>
+                                            <ul class="dropdown_menu">
+                                                <li><a href="shop.html">Productos</a></li>
+                                                <li><a href="product-details.html">Detalles</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li style="visibility: hidden;"><a target="_blank" href="#">Buy Now</a></li>
+
+
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mobile menu start -->
+                <div class="mobile-menu-area hidden-lg hidden-md hidden-sm">
+                    <div class="container">
+                        <div class="col-md-12">
+                            <nav id="dropdown">
+                                <ul>
+                                    <li><a href="index.html">Home</a>
+                                        <ul class="dropdown_menu">
+                                            <li><a href="index.html">Home</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Información</a>
+                                        <ul class="dropdown_menu">
+                                            <li><a href="about.html">Nosotros</a></li>
+                                            <li><a href="contact.html">Contacto</a></li>
+                                            <li><a href="cart.html">Carrito</a></li>
+                                            <li><a href="checkout.html">Comprar</a></li>
+                                            <li><a href="login.html">Ingresar</a></li>
+                                            <li><a href="register.html">Registrarse</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="shop.html">Tienda</a>
+                                        <ul class="dropdown_menu">
+                                            <li><a href="shop.html">Productos</a></li>
+                                            <li><a href="product-details.html">Detalles</a></li>
+                                        </ul>
+                                    </li>
+                                    <li style="visibility: hidden;"><a target="_blank" href="#">Buy Now</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            <!-- Mobile menu end -->
+            </div>
+        </header>
+        <!--Header area end-->
+
+
+        <!--Breadcrumbs start-->
+        <div class="breadcrumbs">
+            <div class="container">
+                <div class="rwo">
+                    <div class="col-md-12">
+                        <div class="breadcrumbs-inner ">
+                            <div class="breadcrumbs-title text-center">
+                                <div class="title-opacity">
+                                    <h1>Finalizar la compra</h1>
+                                </div>
+                                <div class="breadcrumbs-title2">
+                                    <h1>Finalizar la compra</h1>
+                                </div>
+                            </div>
+                            <div class="breadcrmubs-menu">
+                                <ul>
+                                    <li><a href="index.html">home</a></li>
+                                    <li><span> >> </span> Finalizar la compra </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Breadcrumbs end-->
+        
+        
+        
+       <!-- PAGE SECTION START -->
+<div class="page-section section pt-130">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="customer-login mb-40">
+                    <!-- LOGIN START -->
+                    <h3>Necesitás un reembolso? <a data-toggle="collapse" href="#checkout-login">Clickea acá para ingresar</a></h3>
+                    <div id="checkout-login" class="checkout-login collapse fix">
+                        <div class="checkout-login-wrapper mt-30">
+                            <p>Ingresa con tu usuario y contraseña</p>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <form action="#">
+                                    <div class="fix mb-20">
+                                        <label>Nombre de usuario o email <span class="required">*</span></label>
+                                        <input type="text" />
+                                    </div>
+                                    <div class="fix mb-20">
+                                        <label>Contraseña  <span class="required">*</span></label>
+                                        <input type="text" />
+                                    </div>
+                                    <div class="fix mb-20">
+                                        <input type="submit" value="Ingresar" />
+                                    </div>
+                                    <a href="#">Olvidé mi contraseña</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- LOGIN END -->						
+                </div>
+            </div>	
+            <div class="checkout-form">						
+                    <div class="col-lg-6 col-md-6">
+                        <form action="#">
+                            <h3>Detalles de facturación</h3>
+                            <div class="row">
+                                <div class="col-xs-12 mb-30">
+                                    <label for="b_country">País <span class="required">*</span></label>
+                                    <select id="b_country">
+                                      <option value="1">Seleccioná un país</option>
+                                      <option value="2">Alemania</option>
+                                      <option value="3">Argentina</option>
+                                      <option value="4">Brasil</option>
+                                      <option value="5">Chile</option>
+                                      <option value="6">Estados Unidos</option>
+                                      <option value="7">Francia</option>
+                                      <option value="8">Reino Unido</option>
+                                      <option value="9">Otro</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-6 col-xs-12 mb-30">
+                                    <label for="b_f_name">Nombre <span class="required">*</span></label>										
+                                    <input id="b_f_name" type="text"/>
+                                </div>
+                                <div class="col-sm-6 col-xs-12 mb-30">
+                                    <label for="b_l_name">Apellido <span class="required">*</span></label>									
+                                    <input id="b_l_name" type="text"/>
+                                </div>
+                                <div class="col-xs-12 mb-30">
+                                    <label for="b_c_name">Nombre de la compañia</label>									
+                                    <input id="b_c_name" type="text"/>
+                                </div>
+                                <div class="col-xs-12 mb-30">
+                                    <label>Dirección <span class="required">*</span></label>
+                                    <input type="text" placeholder="Dirección" />
+                                </div>
+                                <div class="col-xs-12 mb-30">
+                                    <input type="text" placeholder="Piso (optional)" />
+                                </div>
+                                <div class="col-xs-12 mb-30">
+                                    <label for="b_city">Ciudad <span class="required">*</span></label>
+                                    <input id="b_city" type="text" placeholder="Ciudad" />
+                                </div>
+                                <div class="col-sm-6 col-xs-12 mb-30">
+                                    <label>Estado o provincia <span class="required">*</span></label>										
+                                    <input type="text"/>
+                                </div>
+                                <div class="col-sm-6 col-xs-12 mb-30">
+                                    <label for="b_zip">Código postal <span class="required">*</span></label>										
+                                    <input id="b_zip" type="text" placeholder="Código postal" />
+                                </div>
+                                <div class="col-sm-6 col-xs-12 mb-30">
+                                    <label for="b_email">Email <span class="required">*</span></label>										
+                                    <input id="b_email" type="email"/>
+                                </div>
+                                <div class="col-sm-6 col-xs-12 mb-30">
+                                    <label for="b_phone">Teléfono  <span class="required">*</span></label>										
+                                    <input id="b_phone" type="text" placeholder="Phone Number" />
+                                </div>
+                                <div class="col-xs-12 mb-30">
+                                </div>								
+                            </div>
+                            <div class="order-notes">
+                                <label for="order_note">¿Algo que debamos saber?</label>
+                                <textarea id="order_note" placeholder="Nota para el delivery, etc." ></textarea>								
+                            </div>
+                        </form>											
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-xs-12 ">
+                        <div class="coupon-form mb-30">
+                            <h3>Código de cupón</h3>
+                            <p>Ingresa el código de tu cupón</p>
+                            <form action="#">
+                                <input type="text" placeholder="Código" />
+                                <input type="submit" value="Aplicar" />
+                            </form>
+                        </div>
+                        <div class="order-wrapper">
+                            <h3>Tu orden</h3>
+                            <div class="order-table table-responsive mb-30">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th class="product-name">Producto</th>
+                                            <th class="product-total">Total</th>
+                                        </tr>							
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="product-name">
+                                                Silla Minotti <strong class="product-qty"> × 1</strong>
+                                            </td>
+                                            <td class="product-total">
+                                                <span class="amount">$79.999</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="product-name">
+                                                Silla Eiffel <strong class="product-qty"> × 1</strong>
+                                            </td>
+                                            <td class="product-total">
+                                                <span class="amount">$82.999</span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th>Carrito subtotal</th>
+                                            <td>$162.998</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Orden Total</th>
+                                            <td><strong>$162.998</strong>
+                                            </td>
+                                        </tr>								
+                                    </tfoot>
+                                </table>
+                            </div>
+                            <div class="payment-method">
+                                <div class="panel-group" id="accordion">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" id="headingOne">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                                    Transferencia bancaria directa (BACS)
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse in">
+                                            <div class="panel-body">
+                                                <p>Realiza tu pago directamente en nuestra cuenta bancaria. Por favor, utiliza tu ID de pedido como referencia de pago. Tu pedido no será enviado hasta que los fondos se hayan liquidado en nuestra cuenta.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" id="headingTwo">
+                                            <h4 class="panel-title">
+                                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                                Pago con cheque
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                            <div class="panel-body">
+                                                <p>Por favor, envía tu cheque a nuestra dirección.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" id="headingThree">
+                                            <h4 class="panel-title">
+                                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                                PayPal
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseThree" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <p>Realiza el pago a través de PayPal; puedes pagar con tu tarjeta de crédito si no tienes una cuenta de PayPal.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="order-button">
+                                    <input type="submit" value="Ordenar" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- PAGE SECTION END -->
+        
+        
+        
+        <!--Footer-3 area start-->
+        <footer class="footer-3 ptb-130">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer-3-top text-center">
+                            <div class="footer-logo">
+                                <a href="#"><img src="img/logo/logo-2.png" alt=""></a>
+                            </div>
+                            <div class="footer-top-text">
+                                <p>contacto@somossa.com</p>
+                                <p>+54 9 1134471502</p>
+                            </div>
+                        </div>
+                        <div class="footer-3-bottom text-center">
+                            <div class="copyright">
+                                <p>All Rights Reserved. Designed by <a href="https://hasthemes.com/" target="_blank">Excelsior Co.</a></p>
+                            </div>
+                            <div class="footer-bottom-social">
+                                <a href="https://www.facebook.com/" target="_blank"><i class="zmdi zmdi-facebook"></i></a>
+                                <a href="https://www.instagram.com/" target="_blank"><i class="zmdi zmdi-instagram"></i></a>
+                                <a href="#"><i class="zmdi zmdi-rss"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="zmdi zmdi-twitter"></i></a>
+                                <a href="https://www.pinterest.com/" target="_blank"><i class="zmdi zmdi-pinterest"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--Footer-3 area end-->
+        
+    </div>
+    
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="login">
+                        <div class="account-modal-tab">
+                            <ul class="nav" role="tablist">
+                                <li role="presentation"  class="active"><a href="#login" aria-controls="login" data-toggle="tab">Ingresar</a></li>
+                                <li role="presentation"><a href="#register" aria-controls="register" data-toggle="tab">Registrarse</a></li>
+                            </ul>
+                        </div>
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="login">
+                                <div class="login-form-container">
+                                    <div class="login-text">
+                                        <h2>Ingresar</h2>
+                                        <span>Por favor ingrese con los datos abajo.</span>
+                                    </div>
+                                    <div class="login-form">
+                                        <form action="#" method="post">
+                                            <input type="text" name="user-name" placeholder="Nombre de usuario">
+                                            <input type="password" name="user-password" placeholder="Contraseña">
+                                            <div class="button-box">
+                                                <div class="login-toggle-btn">
+                                                    <input type="checkbox" id="remember">
+                                                    <label for="remember">Recordarme</label>
+                                                    <a href="#">Olvidé la contraseña</a>
+                                                </div>
+                                                <button type="submit" class="default-btn floatright">Ingresar</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="register">
+                                <div class="login-form-container">
+                                        <div class="login-text">
+                                            <h2>Crear una cuenta</h2>
+                                        </div>
+                                        <div class="login-form">
+                                            <form action="#" method="post">
+                                                <input type="text" name="user-name" placeholder="Email">
+                                                <input type="text" name="user-name" placeholder="Nombre de usuario">
+                                                <input type="password" name="user-password" placeholder="Contraseña">
+                                                <input type="password" name="user-password" placeholder="Confirmar contraseña">
+                                                <div class="button-box">
+                                                   <button type="submit" class="default-btn floatright">Registrarse</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal end -->
+    
+    
+
+    <script src="js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nivo.slider.pack.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+
+
+</html>
